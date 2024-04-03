@@ -1,0 +1,18 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create some imaginary data
+data = np.random.normal(size=100)
+
+# Create a histogram of the data
+sns.histplot(data=data, color="blue", edgecolor="black", linewidth=1)
+
+# Add a title to the plot
+plt.title("Histogram of Imaginary Data")
+
+# Change the size of the plot
+plt.figure(figsize=(10, 6))
+
+# Show the plot
+plt.show()
